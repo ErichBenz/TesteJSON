@@ -17,6 +17,10 @@ html {
   height: 100%;
 }
 
+.container h1 {
+  margin-bottom: 22px;
+}
+
 .main-functions {
   display: flex;
   flex-direction: column;
@@ -58,5 +62,22 @@ html {
   border: 1px solid #ff4d4d;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
 
+  h1 {
+    font-size: 20px;
+  }
+
+  .main-functions button {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .main-functions textarea {
+    font-size: 14px;
+  }
+}
 
